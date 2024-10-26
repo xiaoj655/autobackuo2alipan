@@ -1,0 +1,12 @@
+# 将此文件更名为 global.yml 再使用
+
+alipan:
+  secret: 3faan2canafx45392ca3ea1d522e3c02   # 非可用, 请替换为实际阿里云盘应用密钥
+  appid:  8nfn7a6lfal840629we16b8065b4ad02   # 非可用, 请替换为实际阿里云盘应用ID
+  scope:  "user:base,file:all:write,file:all:read" #https://www.yuque.com/aliyundrive/zpfszx/dspik0
+  oauth_redirect_uri: "http://localhost:50000/callback"
+web:
+  page_password: "123456"
+  port: 50000
+  host: "localhost"
+  debug: true

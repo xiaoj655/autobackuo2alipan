@@ -1,0 +1,8 @@
+.venv/
+.env/
+.vscode/
+__pycache__/
+test.py
+*.log.jsonl
+*.db
+global.yml

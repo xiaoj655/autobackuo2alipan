@@ -1,0 +1,18 @@
+# 根据实际情况修改
+
+directory:
+  /root/repo/infosys-fastapi:
+    frequency: 1d
+    compress_type: .tar.gz    # .tar.gz / .tar / .zip  , 推荐使用.tar.gz
+
+# 如果出现all表示备份所有数据库
+mysql:
+  default: # label, avoid different mysql has same database name
+    type: docker # docker or local
+    container: mysql # name or id
+    database:
+      - cloud
+    user: root
+    password: mysqlpwd
+    frequency: 1d
+    compress_type: .tar.gz
